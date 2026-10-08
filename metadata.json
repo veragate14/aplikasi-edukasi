@@ -1,0 +1,6 @@
+{
+  "name": "EduQuest – Petualangan Belajar Anak SD",
+  "description": "Aplikasi edukasi interaktif petualangan belajar anak SD kelas 1 sampai 6 dengan materi lengkap, kuis seru, sistem XP, bintang, dan hadiah petualangan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

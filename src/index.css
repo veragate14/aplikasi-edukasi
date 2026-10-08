@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 3D Game-like button effects */
+.btn-game-amber {
+  box-shadow: 0 5px 0 #d97706, 0 10px 15px -3px rgba(245, 158, 11, 0.3);
+  transition: all 0.12s ease;
+}
+.btn-game-amber:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #d97706, 0 3px 6px -2px rgba(245, 158, 11, 0.3);
+}
+
+.btn-game-emerald {
+  box-shadow: 0 5px 0 #059669, 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+  transition: all 0.12s ease;
+}
+.btn-game-emerald:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #059669, 0 3px 6px -2px rgba(16, 185, 129, 0.3);
+}
+
+.btn-game-sky {
+  box-shadow: 0 5px 0 #0284c7, 0 10px 15px -3px rgba(14, 165, 233, 0.3);
+  transition: all 0.12s ease;
+}
+.btn-game-sky:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #0284c7, 0 3px 6px -2px rgba(14, 165, 233, 0.3);
+}
+
+.btn-game-purple {
+  box-shadow: 0 5px 0 #7c3aed, 0 10px 15px -3px rgba(139, 92, 246, 0.3);
+  transition: all 0.12s ease;
+}
+.btn-game-purple:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #7c3aed, 0 3px 6px -2px rgba(139, 92, 246, 0.3);
+}
+
+.btn-game-rose {
+  box-shadow: 0 5px 0 #e11d48, 0 10px 15px -3px rgba(244, 63, 94, 0.3);
+  transition: all 0.12s ease;
+}
+.btn-game-rose:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #e11d48, 0 3px 6px -2px rgba(244, 63, 94, 0.3);
+}
